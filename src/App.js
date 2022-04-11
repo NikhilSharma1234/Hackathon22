@@ -35,7 +35,7 @@ const App = () => {
           <input placeholder="placeholder" type="text" value={input} onChange={(e) => setInput(e.target.value)}/>      
       </div>
       <br/>
-      <button onClick={() => getEmail({input})}>Get placeholder From Backend</button>
+      <button onclick="location.href = 'App.js';" id="myButton" class="float-left submit-button" >Home</button>
 
       <h2 style={{visibility: email.length > 0 ? 'visible' : 'hidden' }}>Response</h2>
       {
