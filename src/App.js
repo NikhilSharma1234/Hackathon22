@@ -29,7 +29,7 @@ const App = () => {
   return (
     
     <div className="App">
-      <h1>No Bitches?</h1>
+      <h1>Hackathon 22</h1>
       <b>Ignore the rest please. HEHE</b>
       <div>
           <input placeholder="placeholder" type="text" value={input} onChange={(e) => setInput(e.target.value)}/>      
