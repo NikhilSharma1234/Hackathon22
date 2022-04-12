@@ -19,7 +19,7 @@ const App = () => {
          let newEmails = [...email]
          newEmails.push(response)
          setEmails(newEmails)
-
+         console.log("success");
        })
        .catch(error => {
          console.log(error)
@@ -27,8 +27,8 @@ const App = () => {
   }
 
   return (
-    
     <div className="App">
+    
       <h1>Hackathon 22</h1>
       <b>Ignore the rest please. HEHE</b>
       <div>
@@ -43,7 +43,9 @@ const App = () => {
          return (
         <div key={thisEmail.emailId}>
           <span><b>PlaceholderId:</b> {thisEmail.emailId} - <b>PlaceholderName</b>: {thisEmail.emailName}</span>
-        </div>)
+        </div>
+        )
+        
        })
       }
     </div>

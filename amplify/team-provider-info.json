@@ -17,6 +17,12 @@
           "deploymentBucketName": "amplify-hackathon22-dev-154456-deployment",
           "s3Key": "amplify-builds/amplifyhackathon-584b6275522f78646576-build.zip"
         }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d13qv2ve3btl7l",
+          "type": "cicd"
+        }
       }
     }
   }
